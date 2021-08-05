@@ -8,3 +8,18 @@
     -o-object-fit: fill;
     object-fit: fill;
   }
+
+  .image-9 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: normal;
+  }
