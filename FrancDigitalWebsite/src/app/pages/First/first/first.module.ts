@@ -7,6 +7,7 @@ import { MiddleColumnComponent } from '../middle-column/middle-column.component'
 
 
 
+
 @NgModule({
   declarations: [FirstComponent, RightColumnComponent, LeftColumnComponent, MiddleColumnComponent
   ],

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstModule } from './pages/First/first/first.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FirstModule } from './pages/First/first/first.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FirstModule
+    FirstModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
