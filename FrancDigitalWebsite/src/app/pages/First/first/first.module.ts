@@ -4,6 +4,7 @@ import { FirstComponent } from '../first/first.component';
 import { RightColumnComponent } from '../right-column/right-column.component';
 import { LeftColumnComponent } from '../left-column/left-column.component';
 import { MiddleColumnComponent } from '../middle-column/middle-column.component';
+import {  MatButtonModule } from '@angular/material/button';
 
 
 
@@ -14,6 +15,7 @@ import { MiddleColumnComponent } from '../middle-column/middle-column.component'
   exports:[FirstComponent, RightColumnComponent, LeftColumnComponent, MiddleColumnComponent],
   imports: [
     CommonModule,   
+    MatButtonModule
   ]
 })
 export class FirstModule { }

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiddleColumnComponent implements OnInit {
 
+  account: number = 0;
+
   constructor() { }
 
   ngOnInit(): void {
