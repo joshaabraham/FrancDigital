@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RightColumnComponent } from './right-column.component';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -8,7 +9,9 @@ import { RightColumnComponent } from './right-column.component';
   declarations: [RightColumnComponent],
 exports: [RightColumnComponent],
   imports: [
-    CommonModule
+    CommonModule,
+
+    MatButtonModule
   ]
 })
 export class RightColumnModule { }

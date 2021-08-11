@@ -8,6 +8,7 @@ import { EnregistrementComponent } from './enregistrement.component';
   declarations: [
     EnregistrementComponent
   ],
+  exports:[EnregistrementComponent],
   imports: [
     CommonModule
   ]

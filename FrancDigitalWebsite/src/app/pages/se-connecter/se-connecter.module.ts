@@ -2,16 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SeConnecterRoutingModule } from './se-connecter-routing.module';
-import { ConnexionAvecComponent } from './connexion-avec/connexion-avec.component';
+import { SeConnecterComponent } from './se-connecter.component';
 
 
 @NgModule({
   declarations: [
-    ConnexionAvecComponent
+    SeConnecterComponent
   ],
   imports: [
     CommonModule,
-    SeConnecterRoutingModule
+    SeConnecterRoutingModule,
   ]
 })
 export class SeConnecterModule { }

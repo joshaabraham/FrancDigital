@@ -7,7 +7,7 @@ import { RecuperationMdpComponent } from './recuperation-mdp/recuperation-mdp.co
 const routes: Routes = [
   { path: '', component: EnregistrementComponent},
   { path: 'recuperation', component: RecuperationMdpComponent},
-  { path: 'connxionAvec', component: ConnexionAvecComponent}
+  { path: 'connexionAvec', component: ConnexionAvecComponent}
 
 ];
 

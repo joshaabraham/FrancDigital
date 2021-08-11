@@ -6,7 +6,7 @@ import { IntrouvableComponent } from './pages/introuvable/introuvable.component'
 const routes: Routes = [
   { path: '', component: FirstComponent },
  // { path: '', loadChildren: () => import('./pages/First/first/first.module').then(m => m.FirstModule) },
-  { path: 'enregistrer', loadChildren: () => import('./pages/se-connecter/enregistrement/enregistrement.module').then(m => m.EnregistrementModule) },
+  { path: 'enregistrer', loadChildren: () => import('./pages/se-connecter/se-connecter.module').then(m => m.SeConnecterModule) },
   { path: '**', component: IntrouvableComponent}
  // { path: '', loadChildren: () => import('../pages/First/first/FirstModule').then(m => m.FirstModule)}
   // {
