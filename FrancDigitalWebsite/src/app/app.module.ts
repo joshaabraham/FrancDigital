@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TokenInterceptorService} from './Services/token-interceptor.service';
-import { FirstModule } from './pages/First/first/first.module';
+
 import { IntrouvableComponent } from './pages/introuvable/introuvable.component';
+import { FirstModule } from './pages/First/first/first.module';
 
 
 @NgModule({
@@ -20,8 +21,10 @@ import { IntrouvableComponent } from './pages/introuvable/introuvable.component'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FirstModule,
+
     HttpClientModule,
+
+    FirstModule
 
   ],
   providers: [{

@@ -1,21 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FirstComponent } from '../first/first.component';
-import { RightColumnComponent } from '../right-column/right-column.component';
-import { LeftColumnComponent } from '../left-column/left-column.component';
-import { MiddleColumnComponent } from '../middle-column/middle-column.component';
+
 import {  MatButtonModule } from '@angular/material/button';
+import { LeftColumnModule } from '../left-column/left-column.module';
+import { MiddleColumnModule } from '../middle-column/middle-column.module';
+import { RightColumnModule } from '../right-column/right-column.module';
+
 
 
 
 
 @NgModule({
-  declarations: [FirstComponent, RightColumnComponent, LeftColumnComponent, MiddleColumnComponent
-  ],
-  exports:[FirstComponent, RightColumnComponent, LeftColumnComponent, MiddleColumnComponent],
+  declarations: [FirstComponent],
+  exports:[FirstComponent],
   imports: [
     CommonModule,   
-    MatButtonModule
+    MatButtonModule,
+    LeftColumnModule,
+    MiddleColumnModule,
+    RightColumnModule
   ]
 })
 export class FirstModule { }
