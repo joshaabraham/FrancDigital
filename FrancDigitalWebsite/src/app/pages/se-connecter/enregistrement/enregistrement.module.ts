@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EnregistrementComponent } from './enregistrement.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    EnregistrementComponent
+  ],
   imports: [
     CommonModule
   ]

@@ -3,23 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FirstModule } from './pages/First/first/first.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TokenInterceptorService} from './Services/token-interceptor.service';
+import { FirstModule } from './pages/First/first/first.module';
+import { IntrouvableComponent } from './pages/introuvable/introuvable.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    IntrouvableComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FirstModule,
     BrowserAnimationsModule,
-
+    FirstModule,
     HttpClientModule,
 
   ],
