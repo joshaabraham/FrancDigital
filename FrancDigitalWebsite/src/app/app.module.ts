@@ -9,6 +9,7 @@ import { TokenInterceptorService} from './Services/token-interceptor.service';
 
 import { IntrouvableComponent } from './pages/introuvable/introuvable.component';
 import { FirstModule } from './pages/First/first/first.module';
+import { SeConnecterModule } from './pages/se-connecter/se-connecter.module';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FirstModule } from './pages/First/first/first.module';
 
     HttpClientModule,
 
-    FirstModule
+    FirstModule,
+    SeConnecterModule
 
   ],
   providers: [{
