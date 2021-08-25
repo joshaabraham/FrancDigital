@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LeftColumnComponent } from './left-column.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -8,7 +9,8 @@ import { LeftColumnComponent } from './left-column.component';
   declarations: [LeftColumnComponent],
   exports:[LeftColumnComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule
   ]
 })
 export class LeftColumnModule { }

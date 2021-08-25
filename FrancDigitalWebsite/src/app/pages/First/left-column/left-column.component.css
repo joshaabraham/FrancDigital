@@ -26,3 +26,8 @@
     -ms-flex-order: 0;
     order: 0;
   }
+
+  mat-card {
+    margin: 2px;
+    width: 100%;
+  }
