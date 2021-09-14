@@ -10,12 +10,14 @@ import { TokenInterceptorService} from './Services/token-interceptor.service';
 import { IntrouvableComponent } from './pages/introuvable/introuvable.component';
 import { FirstModule } from './pages/First/first/first.module';
 import { SeConnecterModule } from './pages/se-connecter/se-connecter.module';
+import { LignedetempsComponent } from './pages/composants/lignedetemps/lignedetemps.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     IntrouvableComponent,
+    LignedetempsComponent,
 
   ],
   imports: [
